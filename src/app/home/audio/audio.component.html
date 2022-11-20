@@ -1,3 +1,21 @@
-<div>
-    <h2 style="margin: 0;">{{info.title}}</h2>
+<div class="audio-container">
+    <h3 class="rota-blk m-0">
+        {{info.title}}
+    </h3>
+    <div class="d-flex flex-row audio-row mt-4">
+        <div style="font-size: xxx-large;" class="text-blue rota-blk">{{info.value}}</div>
+        <div class="rota-r ">
+            <span class="play-div">
+                PLAYING
+            </span>
+        </div>
+        <div class="rota-m text-gray">
+            <div>
+                Total
+            </div>
+            <div style="font-size:xx-large;" class="rota-b text-gray">
+                {{info.total}}
+            </div>
+        </div>
+    </div>
 </div>

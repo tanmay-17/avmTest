@@ -22,6 +22,24 @@ h1,h2,h3,h4,h5,h6 {
     font-family: rota-regular;
 }
 
+.text-blue {
+    color: #5448C8;
+}
+.text-green {
+    color: #6DD0A5;
+}
+.text-black {
+    color: #2D2D2D;
+}
+.text-gray {
+    color: #999999;
+}
+.font-xxl {
+    font-size: xx-large;
+}
+.font-xl {
+    font-size: x-large;
+}
 @font-face {
     font-family: rota-black;
     src: url(assets/Rota/Rota-Black.otf) format("opentype");

@@ -1,10 +1,43 @@
 .air-quality-container {
 
     .tot-cnt {
-    font-size: xx-large;
-    background: #6DD0A5;
-    padding: 1rem;
-    border-radius: 50%;
-    color: white;
+        background: #6DD0A5;
+        padding: 1rem;
+        border-radius: 50%;
+        color: white;
+    }
+    .temp-tot-cnt {
+        background: #5448C8;
+        padding: 10px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .max-min-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .max-min-cnt {
+        font-size: xx-large;
+        font-weight: 600;
+        color: #999999;
+    }
+
+    .border-btm {
+        border-bottom: 2px solid #999999;
+    }
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .air-quality-container {
+        .mob-mt {
+            margin-top: 0.7rem;
+        }
+        .mob-center {
+            align-items: center;
+        }
     }
 }

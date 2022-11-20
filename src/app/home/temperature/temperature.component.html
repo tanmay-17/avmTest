@@ -1,11 +1,36 @@
-<div>
-    <h2 style="margin: 0; color: #999999;">{{info.title}}</h2>
+<div class="temprature-container">
+    <h3 class="rota-blk m-0">
+        {{info.title}}
+    </h3>
     <div class="row m-0">
-        <div class="col-md-6 m-0">72</div>
+        <div class="col-md-6 mt-1 m-0 rota-b d-flex align-items-center justify-content-center">
+            <div class="temp-tot-cnt">
+                <span class="font-xxl">
+                    {{info.value}}
+                </span>
+                <span class="rota-r">&#xb0; C</span>
+            </div>
+        </div>
         <div class="col-md-6 m-0">
-            <div class="d-flex flex-column">
-                <div>93</div>
-                <div>61</div>
+            <div class="d-flex flex-column mob-center mob-mt">
+                <div class="max-min-container rota-r border-btm">
+                    <img src="./../../../assets/fire.svg" width="16" height="16" alt="">
+                    &nbsp;
+                    <h3 class="max-min-cnt m-0">
+                        {{info.max}}
+                    </h3>
+                    <span class="text-gray rota-b">&#xb0; C</span>
+
+                </div>
+                <div class="max-min-container mt-1">
+                    <img src="./../../../assets/snowflake.svg" width="16" height="16" alt="">
+                    &nbsp;
+                    <h3 class="max-min-cnt m-0">
+                        {{info.min}}
+                    </h3>
+                    <span class="text-gray rota-b">&#xb0; C</span>
+
+                </div>
             </div>
         </div>
     </div>
