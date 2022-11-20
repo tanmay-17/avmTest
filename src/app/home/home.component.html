@@ -1,0 +1,29 @@
+<div class="container">
+    <div style="margin: 2rem auto; width: 15rem;">
+        <img src="./../../assets/logo.svg" alt="">
+    </div>
+    
+    <div *ngIf="cardsArr && cardsArr.length > 0" class="cards-container">
+        <div *ngFor="let c of cardsArr" class="card-item">
+
+            <div *ngIf="c && c['cardId']===1">
+                <app-air-quality [info]="c"></app-air-quality>
+            </div>
+            <div *ngIf="c && c['cardId']===2">
+                <app-temperature [info]="c"></app-temperature>
+            </div>
+            <div *ngIf="c && c['cardId']===3">
+                <app-audio [info]="c"></app-audio>
+            </div>
+            <div *ngIf="c && c['cardId']===4">
+                <app-displays [info]="c"></app-displays>
+            </div>
+            <div *ngIf="c && c['cardId']===5">
+                <app-lighting [info]="c"></app-lighting>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="error.length > 0 && cardsArr && cardsArr.length ==0">
+        <span style="color: red;"> {{error}}</span>
+    </div>
+</div>

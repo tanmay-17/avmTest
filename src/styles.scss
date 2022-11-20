@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f6f6f6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: rota-black;
+}
+
+.rota-blk {
+    font-family: rota-black;
+}
+
+.rota-b {
+    font-family: rota-bold;
+}
+.rota-m {
+    font-family: rota-meidum;
+}
+
+.rota-r {
+    font-family: rota-regular;
+}
+
+@font-face {
+    font-family: rota-black;
+    src: url(assets/Rota/Rota-Black.otf) format("opentype");
+  }
+  @font-face {
+    font-family: rota-bold;
+    src: url(assets/Rota/Rota-Bold.otf) format("opentype");
+  }
+  @font-face {
+    font-family: rota-meidum;
+    src: url(assets/Rota/Rota-Medium.otf) format("opentype");
+  }
+  @font-face {
+    font-family: rota-regular;
+    src: url(assets/Rota/Rota-Regular.otf) format("opentype");
+  }
