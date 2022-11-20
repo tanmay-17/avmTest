@@ -1,3 +1,19 @@
+# git hub source code URL link
+
+[GitHub] https://github.com/tanmay-17/avmTest
+
+# Dev Resolution 
+[Width] 1366px `Desktop`
+
+# Responsive for other devices
+[Width] 768px `Tablet`
+[Width] 390px `iPhone 12 pro`
+
+# Attachemt of ScreenShot of Screen Designed
+`/Test ScreenShot/Desktop.png`
+`/Test ScreenShot/Tablet.png`
+`/Test ScreenShot/iPhone Device.png`
+
 # AvmTestTanmay
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.

@@ -56,3 +56,10 @@ h1,h2,h3,h4,h5,h6 {
     font-family: rota-regular;
     src: url(assets/Rota/Rota-Regular.otf) format("opentype");
   }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    ::ng-deep .mob-center {
+        align-items: center !important;
+    }
+}

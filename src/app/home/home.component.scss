@@ -7,10 +7,18 @@
     margin: 0 5rem;
     .card-item {
         width: 15rem;
+        min-width: 15rem;
         border: 1px solid #ececec;
         padding: 1rem;
         margin: 0.5rem;
         border-radius: 10px;
         background-color: #ececec;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mob-center {
+        align-items: center !important;
     }
 }
